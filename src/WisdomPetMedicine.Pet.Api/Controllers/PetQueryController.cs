@@ -18,7 +18,7 @@ public class PetQueryController : ControllerBase
     [HttpGet]
     public async Task<IActionResult> Get()
     {
-        string query = @"SELECT p.Name_Value as Name,
+        string query = @"SELECT p.Id, p.Name_Value as Name,
                             p.Breed_Value as Breed,
                             Sex = 
                             CASE p.SexOfPet_Value
