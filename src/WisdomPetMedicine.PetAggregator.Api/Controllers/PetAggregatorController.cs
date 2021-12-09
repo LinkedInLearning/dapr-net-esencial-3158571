@@ -14,6 +14,7 @@ public class PetAggregatorController : ControllerBase
         this.daprClient = daprClient;
     }
 
+    [HttpGet]
     public async Task<IActionResult> Get()
     {
         return null;
