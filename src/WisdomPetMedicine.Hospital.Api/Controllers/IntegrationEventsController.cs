@@ -26,6 +26,7 @@ public class IntegrationEventsController : ControllerBase
     }
 
     [Topic("pubsub", "pet-transferred-to-hospital")]
+    [HttpPost]
     public async Task<IActionResult> OnPetTransferredToHospital(PetTransferredToHospitalIntegrationEvent theEvent)
     {
         using var scope = serviceScopeFactory.CreateScope();
