@@ -9,8 +9,12 @@ spec:
   - name: storageAccount
     value: "wisdompetmed"
   - name: storageAccessKey
-    value: "4CHcIUksdecIJnVEHiJoiwbf/JBOVFM7AaiAO3MhjDCtn753ZvdVq5JCQPlRbt2V3mwxVQEKLfrycz2Z0krW1w=="
+    secretKeyRef:
+      name: connectionStrings:azurestorage
+      key: connectionStrings:azurestorage
   - name: queue
     value: "petqueue"
   - name: ttlInSeconds
     value: "60"
+auth:
+  secretStore: wisdomsecretstore

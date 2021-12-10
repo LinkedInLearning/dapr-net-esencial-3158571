@@ -10,6 +10,10 @@ spec:
   - name: accountName
     value: "wisdompetmed"
   - name: accountKey
-    value: "4CHcIUksdecIJnVEHiJoiwbf/JBOVFM7AaiAO3MhjDCtn753ZvdVq5JCQPlRbt2V3mwxVQEKLfrycz2Z0krW1w=="
+    secretKeyRef:
+      name: connectionStrings:azurestorage
+      key: connectionStrings:azurestorage
   - name: tableName
     value: "state"
+auth:
+  secretStore: wisdomsecretstore
