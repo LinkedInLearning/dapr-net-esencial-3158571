@@ -1,0 +1,20 @@
+apiVersion: dapr.io/v1alpha1
+kind: Component
+metadata:
+  name: petinputbinding
+spec:
+  type: bindings.azure.storagequeues
+  version: v1
+  metadata:
+  - name: storageAccount
+    value: "wisdompetmed"
+  - name: storageAccessKey
+    secretKeyRef:
+      name: azurestorage
+      key: azurestorage
+  - name: queue
+    value: "petqueue"
+  - name: ttlInSeconds
+    value: "60"
+auth:
+  secretStore: wisdomsecretstore
