@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WisdomPetMedicine.Hospital.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WisdomPetMedicine.Hospital.Projector", "WisdomPetMedicine.Hospital.Projector\WisdomPetMedicine.Hospital.Projector.csproj", "{CB32E79E-F25B-4934-B3E3-4A44A3B919B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WisdomPetMedicine.PetAggregator.Api", "WisdomPetMedicine.PetAggregator.Api\WisdomPetMedicine.PetAggregator.Api.csproj", "{48DE9CAA-EBB6-422C-A280-841687A22AF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WisdomPetMedicine.PetAggregator.Api", "WisdomPetMedicine.PetAggregator.Api\WisdomPetMedicine.PetAggregator.Api.csproj", "{48DE9CAA-EBB6-422C-A280-841687A22AF3}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{A6C63DDE-19F5-4C7E-B345-421FF6F09AE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -173,6 +175,18 @@ Global
 		{48DE9CAA-EBB6-422C-A280-841687A22AF3}.Release|x64.Build.0 = Release|Any CPU
 		{48DE9CAA-EBB6-422C-A280-841687A22AF3}.Release|x86.ActiveCfg = Release|Any CPU
 		{48DE9CAA-EBB6-422C-A280-841687A22AF3}.Release|x86.Build.0 = Release|Any CPU
+		{A6C63DDE-19F5-4C7E-B345-421FF6F09AE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6C63DDE-19F5-4C7E-B345-421FF6F09AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6C63DDE-19F5-4C7E-B345-421FF6F09AE0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A6C63DDE-19F5-4C7E-B345-421FF6F09AE0}.Debug|x64.Build.0 = Debug|Any CPU
+		{A6C63DDE-19F5-4C7E-B345-421FF6F09AE0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A6C63DDE-19F5-4C7E-B345-421FF6F09AE0}.Debug|x86.Build.0 = Debug|Any CPU
+		{A6C63DDE-19F5-4C7E-B345-421FF6F09AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6C63DDE-19F5-4C7E-B345-421FF6F09AE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6C63DDE-19F5-4C7E-B345-421FF6F09AE0}.Release|x64.ActiveCfg = Release|Any CPU
+		{A6C63DDE-19F5-4C7E-B345-421FF6F09AE0}.Release|x64.Build.0 = Release|Any CPU
+		{A6C63DDE-19F5-4C7E-B345-421FF6F09AE0}.Release|x86.ActiveCfg = Release|Any CPU
+		{A6C63DDE-19F5-4C7E-B345-421FF6F09AE0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
