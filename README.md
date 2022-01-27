@@ -22,14 +22,15 @@ Las ramas están estructuradas para corresponder a los vídeos del curso. La con
 
 1. Para utilizar estos archivos de ejercicios, debes tener descargado lo siguiente:
    - Visual Studio
-   - .NET 6.0
+   - .NET 6.0 SDK
    - Docker Desktop
    - Curl
-   - Nodejs
-   - Redis commander
+   - Node.js
+   - NPM
+   - Redis Commander
    - SQL Server
    - SQL Server Management Studio
-   - Azure Cli
+   - Azure CLI
    - Helm
 
 2. Clona este repositorio en tu máquina local usando la Terminal (macOS) o CMD (Windows), o una herramienta GUI como SourceTree.
